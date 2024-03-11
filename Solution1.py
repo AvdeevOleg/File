@@ -1,6 +1,6 @@
 def read_recipes_from_file(file_name, num_dishes=3):
     cook_book = {}
-    with open(file_name, 'r', encoding='utf-8') as file:
+    with open(file_name, 'r', encoding='cp1251') as file:
         for _ in range(num_dishes):
             dish_name = file.readline().strip()
             if not dish_name:

@@ -1,7 +1,7 @@
 # -*- coding: cp1251 -*-
 def create_cook_book_from_file(file_name):
     cook_book = {}
-    with open(file_name, 'r', encoding='cp1251') as file:
+    with open(file_name, 'r', encoding='utf-8') as file:
         while True:
             dish_name = file.readline().strip()
             if not dish_name:

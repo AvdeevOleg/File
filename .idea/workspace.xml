@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b8660f-4393-4b6b-9cbc-6f7d66e3dc58" name="Changes" comment="" />
+    <list default="true" id="d9b8660f-4393-4b6b-9cbc-6f7d66e3dc58" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Solution1.py" root0="SKIP_INSPECTION" />
@@ -32,22 +37,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Solution1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Solution2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Solution3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Solution4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Solution№2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aotra/Desktop/File&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1.executor": "Run",
+    "Python.Solution1.executor": "Run",
+    "Python.Solution2.executor": "Run",
+    "Python.Solution3.executor": "Run",
+    "Python.Solution4.executor": "Run",
+    "Python.Solution№2.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/aotra/Desktop/File",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.Solution3">
+}]]></component>
+  <component name="RunManager" selected="Python.Solution2">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="File" />
       <option name="ENV_FILES" value="" />
@@ -160,9 +166,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Solution3" />
-        <item itemvalue="Python.Solution1" />
         <item itemvalue="Python.Solution2" />
+        <item itemvalue="Python.Solution1" />
+        <item itemvalue="Python.Solution3" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.Solution4" />
       </list>

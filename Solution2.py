@@ -1,4 +1,4 @@
-# -*- coding: cp1251 -*-
+# -*- coding: utf-8 -*-
 def create_cook_book_from_file(file_name):
     cook_book = {}
     with open(file_name, 'r', encoding='cp1251') as file:
@@ -17,7 +17,7 @@ def create_cook_book_from_file(file_name):
                 }
                 ingredients.append(ingredient)
             cook_book[dish_name] = ingredients
-            file.readline()  # Пропускаем пустую строку между блюдами
+            file.readline()
     return cook_book
 
 def get_shop_list_by_dishes(dishes, person_count, cook_book):
@@ -34,15 +34,15 @@ def get_shop_list_by_dishes(dishes, person_count, cook_book):
                     shop_list[ingredient_name]['quantity'] += quantity
     return shop_list
 
-# Создаем кулинарную книгу из файла
+
 cook_book = create_cook_book_from_file('recipes.txt')
 
-# Получаем список покупок для указанных блюд и количества персон
-shop_list = get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2, cook_book)
+
+shop_list = get_shop_list_by_dishes(['Р—Р°РїРµС‡РµРЅРЅС‹Р№ РєР°СЂС‚РѕС„РµР»СЊ', 'РћРјР»РµС‚'], 2, cook_book)
 
 from collections import OrderedDict
 
-# Выводим список покупок
+
 print("{")
 for ingredient, info in OrderedDict(sorted(shop_list.items())).items():
     print(f"  '{ingredient}': {{'measure': '{info['measure']}', 'quantity': {info['quantity']}}},")

@@ -16,5 +16,5 @@ def files_reader(file_list: list, output_file_name: str):
                 n_f.write(f.read().strip() + '\n')
     return ''
 
-print(files_reader(['1.txt', '2.txt', '3.txt'], 'result_solution3.txt'))
 
+print(files_reader(['1.txt', '2.txt', '3.txt'], 'result_solution3.txt'))
